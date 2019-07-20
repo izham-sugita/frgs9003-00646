@@ -4,6 +4,10 @@ import tensorflow as tf
 
 #a = np.ndarray(shape=(3,3), dtype=tf.float16) #wrong! numpy don't get float16
 
+#eager execution
+#tf.compat.v1.enable_eager_execution()
+
+
 x = tf.constant([1.25, 5.45], dtype=tf.float16)
 
 a = tf.constant(np.arange(1.0,10.0, dtype=np.float32),
