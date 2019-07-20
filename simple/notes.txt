@@ -1,0 +1,12 @@
+sugita@sugita-GT70-2OC-2OD:~/research/python3/tensorflow-test/frgs9003-00646/simple$ python3 tf-print-tensor-v2.py 
+
+Matrix 1280 x 1280
+
+Tensorflow half-precision elapsed time: 11.420517444610596  secs
+
+Tensorflow elapsed time: 0.05129122734069824  secs
+
+Numpy elapsed time: 0.029827117919921875  secs
+
+Half-precision for CPU is a bad idea because of the casting. Better stick to int or float 
+if fast computation is the target.
