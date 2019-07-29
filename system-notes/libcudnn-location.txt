@@ -1,0 +1,2 @@
+/usr/lib/x86_64-linux-gnu/libcudnn.so.7
+/usr/lib/x86_64-linux-gnu/libcudnn.so.7.6.2
