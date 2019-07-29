@@ -10,3 +10,10 @@ Numpy elapsed time: 0.029827117919921875  secs
 
 Half-precision for CPU is a bad idea because of the casting. Better stick to int or float 
 if fast computation is the target.
+
+2019-07-29 11:59:46.017426: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1748] 
+Ignoring visible gpu device 
+(device: 2, name: Quadro P400, pci bus id: 0000:01:00.0, compute capability: 6.1) 
+with core count: 2. The minimum required count is 8. 
+You can adjust this requirement with the env var TF_MIN_GPU_MULTIPROCESSOR_COUNT.
+
