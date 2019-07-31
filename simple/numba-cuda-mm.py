@@ -4,6 +4,10 @@ import numpy
 import math
 import time
 
+#set the environment variables
+# $export CUDA_HOME=/your/local/cuda/directory/with/version
+# before running this script
+
 # Controls threads per block and shared memory usage.
 # The computation will be done on blocks of TPBxTPB elements.
 TPB = 16
