@@ -40,12 +40,16 @@ if dev =='GPU' or dev =='gpu':
     dev= "/device:"+dev+":"+num
     print(dev)
 
+'''
 if num == 0 or num == 1:
     #create on device/cpu
     with tf.device(dev):
         acast = tf.cast(a, tf.float32) #add cast
 else:
     acast = a
+'''
+with tf.device(dev):
+    acast = tf.cast(a, tf.float32) #cast to cpu
     
 flops = 2.0*float(imax)*float(imax)*float(imax)
 itermax = 20
