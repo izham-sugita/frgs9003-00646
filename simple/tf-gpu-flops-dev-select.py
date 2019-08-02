@@ -35,7 +35,7 @@ if dev == 'CPU' or dev =='cpu':
 
 if dev =='GPU' or dev =='gpu':
     print("Selected gpu")
-    num = input("Device number(0-1): ")
+    num = input("Device number(0-2): ")
     dev = dev.upper()
     dev= "/device:"+dev+":"+num
     print(dev)
